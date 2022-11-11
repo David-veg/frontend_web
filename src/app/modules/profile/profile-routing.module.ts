@@ -5,7 +5,7 @@ import { CampaignsComponent } from './campaigns/campaigns.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProfileComponent } from './profile.component';
-import { ConnectionsComponent } from './connections/connections.component';
+
 
 const routes: Routes = [
   {
@@ -28,10 +28,7 @@ const routes: Routes = [
         path: 'documents',
         component: DocumentsComponent,
       },
-      {
-        path: 'connections',
-        component: ConnectionsComponent,
-      },
+      
       { path: '', redirectTo: 'overview', pathMatch: 'full' },
       { path: '**', redirectTo: 'overview', pathMatch: 'full' },
     ],

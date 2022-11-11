@@ -7,7 +7,7 @@ import { CampaignsComponent } from './campaigns/campaigns.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { ProfileRoutingModule } from './profile-routing.module';
 import { ProfileComponent } from './profile.component';
-import { ConnectionsComponent } from './connections/connections.component';
+
 import {
   CardsModule,
   DropdownMenusModule,
@@ -21,7 +21,7 @@ import {
     ProjectsComponent,
     CampaignsComponent,
     DocumentsComponent,
-    ConnectionsComponent,
+   
   ],
   imports: [
     CommonModule,

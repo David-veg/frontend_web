@@ -1,3 +1,19 @@
+body{
+  border-radius: 30px;
+}
+
+#ViewLogin{
+  background-color: #023052;
+  border-radius: 30px;
+}
+
+#capa{
+background-color: red;
+}
+#texto{
+  size: 52px;
+}
+
 :host {
   width: 100%;
   @media (min-width: 992px) {
@@ -11,3 +27,4 @@
     }
   }
 }
+

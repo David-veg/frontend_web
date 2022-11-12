@@ -1,34 +1,43 @@
 <!--begin::Body-->
-<body id="kt_body" class="bg-body app-blank">	
+<link rel="stylesheet" href="login.component.scss">
+
+<body id="kt_body" class="bg-body app-blank" >	
 
   <!--begin::Root-->
   <div class="d-flex flex-column flex-root" id="ViewLogin">
     <!--begin::Authentication - Sign-in -->
-    <div class="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed">
+    <div class="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed" >
       <!--begin::Content-->
-      <div class="d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20">
+      <div class="d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20" >
         <!--begin::Wrapper-->
-        <div class="w-lg-500px bg-body rounded shadow-sm p-10 p-lg-15 mx-auto" style="background-color:#2EA3F2;">
+        <div class="w-lg-500px bg-body rounded  shadow-sm p-15 p-lg-8 mx-auto" >
           <!--begin::Form-->
           <form class="form w-100" novalidate="novalidate" id="kt_login_signin_form"
           (ngSubmit)="submit()"  >
             <!--begin::Heading-->
             <div class="text-center mb-10">
               <!--begin::Title-->
-              <h1 class="text mb-3" style="color:#023052;">Bienvenido</h1>
+              
+              <img src="../../../../../assets/media/logos/logo-nutricion.svg" height="70px;" alt=""> <br><br>
+              <img src="../../../../../assets/media/logos/entrada.svg" height="200px;" alt=""> <br><br>
+              <h1 class="text mb-3" style="color:#ffc700;">Bienvenido</h1>
+              
               <!--end::Title-->
 
             </div>
             <!--begin::Heading-->
             <!--begin::Input group-->
-            <div class="fv-row mb-10">
+            <div class="papa">
+              <div class="fv-row mb-10" >
               <!--begin::Label-->
-              <label class="form-label fs-6 fw-bolder text-dark">Usuario</label>
+              <label class="form-label fs-6 fw-bolder text-dark" >Usuario</label>
               <!--end::Label-->
               <!--begin::Input-->
               <input class="form-control form-control-lg form-control-solid" type="text" name="usuario"  autocomplete="off" />
               <!--end::Input-->
             </div>
+            </div>
+            
             <!--end::Input group-->
             <!--begin::Input group-->
             <div class="fv-row mb-10">
@@ -69,10 +78,10 @@
       </div>
       <!--end::Content-->
       <!--begin::Footer-->
-      <div class="d-flex flex-center flex-column-auto p-10">
+      <div class="d-flex flex-center flex-column-auto p-4">
         <!--begin::Links-->
         <div class="d-flex align-items-center fw-bold fs-6">
-          <a  class="text-muted text-hover-primary px-2">Impulsado por GETSOFT ERP</a>
+          <h4 class="text-muted text-hover-primary px-2">Escuela Profesional de Nutrición Humana</h4>
         </div>
         <!--end::Links-->
       </div>

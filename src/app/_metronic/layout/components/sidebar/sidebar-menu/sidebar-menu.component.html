@@ -7,11 +7,71 @@
   <div class="menu menu-column menu-rounded menu-sub-indention px-3" id="#kt_app_sidebar_menu" data-kt-menu="true"
     data-kt-menu-expand="false">
     <!-- Dashboard -->
-    <div class="menu-item">
-      <a class="menu-link without-sub" routerLink="/dashboard" routerLinkActive="active"><span class="menu-icon">
+    <!-- <div class="menu-item">
+      <a class="menu-link without-sub" routerLink="/Campaign" routerLinkActive="active"><span class="menu-icon">
           <span [inlineSVG]="'./assets/media/icons/duotune/general/gen025.svg'" class="svg-icon svg-icon-2"></span>
         </span>
         <span class="menu-title" translate="MENU.DASHBOARD"></span></a>
+    </div> -->
+<!-- Dashboard EXTEND 2 -->
+    <div data-kt-menu-trigger="click" class="menu-item menu-accordion hover show">
+      
+      <!--begin:Menu link-->
+      <span class="menu-link">
+        <span class="menu-icon">
+          <!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
+          <span class="svg-icon svg-icon-2">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="9" height="9" rx="2" fill="currentColor"></rect>
+              <rect opacity="0.3" x="13" y="2" width="9" height="9" rx="2" fill="currentColor"></rect>
+              <rect opacity="0.3" x="13" y="13" width="9" height="9" rx="2" fill="currentColor"></rect>
+              <rect opacity="0.3" x="2" y="13" width="9" height="9" rx="2" fill="currentColor"></rect>
+            </svg>
+          </span>
+          <!--end::Svg Icon-->
+        </span>
+        <span class="menu-title">Dashboards</span>
+        <span class="menu-arrow"></span>
+      </span>
+      <!--end:Menu link-->
+      <!--begin:Menu sub-->
+      <div class="menu-sub menu-sub-accordion show" kt-hidden-height="248" style="">
+        <!--begin:Menu item-->
+        <div class="menu-item">
+          <!--begin:Menu link-->
+          <a class="menu-link" href="../crafted/pages/profile/campaigns">
+            <span class="menu-bullet">
+              <span class="bullet bullet-dot"></span>
+            </span>
+            <span class="menu-title">Perfil</span>
+          </a>
+          <!--end:Menu link-->
+        </div>
+        <!--end:Menu item-->
+        <!--begin:Menu item-->
+
+        <!-- <div class="menu-item">
+          <a class="menu-link" href="../crafted/pages/profile/overview.html">
+            <span class="menu-bullet">
+              <span class="bullet bullet-dot"></span>
+            </span>
+            <span class="menu-title">eCommerce</span>
+          </a>
+        </div> -->
+
+        <!--end:Menu item-->
+        <!--begin:Menu item-->
+        <!-- <div class="menu-item">
+          <a class="menu-link" href="/metronic8/demo1/../demo1/dashboards/projects.html">
+            <span class="menu-bullet">
+              <span class="bullet bullet-dot"></span>
+            </span>
+            <span class="menu-title">Projects</span>
+          </a>
+        </div> -->
+        <!--end:Menu item-->
+      </div>
+      <!--end:Menu sub-->
     </div>
 
     <!-- Layout builder -->
@@ -28,7 +88,7 @@
     </div>
 
     <!-- Pages -->
-    <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
+    <!-- <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
       <span class="menu-link"><span class="menu-icon"><span class="svg-icon svg-icon-2"
             [inlineSVG]="'./assets/media/icons/duotune/general/gen022.svg'"></span></span><span
           class="menu-title">Pages</span><span class="menu-arrow"></span></span>
@@ -79,10 +139,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Accounts -->
-    <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
+    <!-- <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
       <span class="menu-link"><span class="menu-icon"><span class="svg-icon svg-icon-2"
             [inlineSVG]="'./assets/media/icons/duotune/communication/com006.svg'"></span></span><span class="menu-title"
           data-link="/crafted/account">Accounts</span><span class="menu-arrow"></span></span>
@@ -98,10 +158,10 @@
               class="menu-title">Settings</span></a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Errors -->
-    <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
+    <!-- <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
       <span class="menu-link"><span class="menu-icon"><span class="svg-icon svg-icon-2"
             [inlineSVG]="'./assets/media/icons/duotune/general/gen040.svg'"></span></span><span class="menu-title"
           data-link="/error">Errors</span><span class="menu-arrow"></span></span>
@@ -117,10 +177,10 @@
               500</span></a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Widgets -->
-    <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
+    <!-- <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
       <span class="menu-link"><span class="menu-icon"><span class="svg-icon svg-icon-2"
             [inlineSVG]="'./assets/media/icons/duotune/layouts/lay008.svg'"></span></span><span class="menu-title"
           data-link="/crafted/widgets">Widgets</span><span class="menu-arrow"></span></span>
@@ -156,7 +216,7 @@
               class="menu-title">Feeds</span></a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Separator -->
     <div class="menu-item">
@@ -166,7 +226,7 @@
     </div>
 
     <!-- Chat -->
-    <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
+    <!-- <div class="menu-item menu-accordion" data-kt-menu-trigger="click" routerLinkActive="here show">
       <span class="menu-link"><span class="menu-icon"><span class="svg-icon svg-icon-2"
             [inlineSVG]="'./assets/media/icons/duotune/communication/com012.svg'"></span></span><span class="menu-title"
           data-link="/apps/chat">Chat</span><span class="menu-arrow"></span></span>
@@ -187,7 +247,7 @@
               Chart</span></a>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
   </div>

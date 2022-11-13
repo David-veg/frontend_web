@@ -19,7 +19,7 @@
               <!--begin::Title-->
               
               <img src="../../../../../assets/media/logos/logo-nutricion.svg" height="70px;" alt=""> <br><br>
-              <img src="../../../../../assets/media/logos/entrada.svg" height="200px;" alt=""> <br><br>
+            <!--  <img src="../../../../../assets/media/logos/entrada.svg" height="200px;" alt=""> <br><br> -->
               <h1 class="text mb-3" style="color:#ffc700;">Bienvenido</h1>
               
               <!--end::Title-->
@@ -61,7 +61,7 @@
                 <ng-container *ngIf="isLoading$ | async">
                   <span class="indicator-progress" [style.display]="'block'">
                     Please wait...
-                    <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                    <span class="spinner-border spinner-border-sm align-middle ms-6"></span>
                   </span>
                 </ng-container>
                 <ng-container *ngIf="(isLoading$ | async) === false">

@@ -25,7 +25,7 @@
             <!--begin::Label-->
             <div class="stepper-label">
               <h3 class="stepper-title">
-                Account Type
+                Registrar Datos Personales
               </h3>
 
               <div class="stepper-desc fw-semibold">
@@ -57,7 +57,7 @@
             <!--begin::Label-->
             <div class="stepper-label">
               <h3 class="stepper-title">
-                Account Settings
+                Documentos Requeridos
               </h3>
               <div class="stepper-desc fw-semibold">
                 Setup Your Account Settings
@@ -88,7 +88,7 @@
             <!--begin::Label-->
             <div class="stepper-label">
               <h3 class="stepper-title">
-                Business Info
+                Datos de la Empresa
               </h3>
               <div class="stepper-desc fw-semibold">
                 Your Business Related Info
@@ -103,20 +103,19 @@
           <!--end::Line-->
         </div>
 
-        <div class="stepper-item" [ngClass]="{
+       <!--  <div class="stepper-item" [ngClass]="{
             current: currentStep$.value === 4,
             completed: currentStep$.value > 4
           }">
-          <!--begin::Wrapper-->
+
           <div class="stepper-wrapper">
-            <!--begin::Icon-->
+
             <div class="stepper-icon w-40px h-40px">
               <i class="stepper-check fas fa-check"></i>
               <span class="stepper-number">4</span>
             </div>
-            <!--end::Icon-->
 
-            <!--begin::Label-->
+
             <div class="stepper-label">
               <h3 class="stepper-title">
                 Billing Details
@@ -125,26 +124,22 @@
                 Set Your Payment Methods
               </div>
             </div>
-            <!--end::Label-->
-          </div>
-          <!--end::Wrapper-->
 
-          <!--begin::Line-->
+          </div>
+
           <div class="stepper-line h-40px"></div>
-          <!--end::Line-->
-        </div>
+
+        </div> -->
 
         <div class="stepper-item" [ngClass]="{ current: currentStep$.value === 5 }">
-          <!--begin::Wrapper-->
+
           <div class="stepper-wrapper">
-            <!--begin::Icon-->
+
             <div class="stepper-icon w-40px h-40px">
               <i class="stepper-check fas fa-check"></i>
-              <span class="stepper-number">5</span>
+              <span class="stepper-number">4</span>
             </div>
-            <!--end::Icon-->
 
-            <!--begin::Label-->
             <div class="stepper-label">
               <h3 class="stepper-title">
                 Completed
@@ -153,9 +148,9 @@
                 Woah, we are here
               </div>
             </div>
-            <!--end::Label-->
+
           </div>
-          <!--end::Wrapper-->
+
         </div>
       </div>
     </div>
@@ -178,11 +173,11 @@
           <app-step3 class="w-100" [updateParentModel]="updateAccount" [defaultValues]="account$.value"></app-step3>
         </ng-container>
 
-        <ng-container *ngIf="currentStep$.value === 4">
+      <!--   <ng-container *ngIf="currentStep$.value === 4">
           <app-step4 class="w-100" [updateParentModel]="updateAccount" [defaultValues]="account$.value"></app-step4>
-        </ng-container>
+        </ng-container> -->
 
-        <ng-container *ngIf="currentStep$.value === 5">
+        <ng-container *ngIf="currentStep$.value === 4">
           <app-step5 class="w-100"></app-step5>
         </ng-container>
       </div>

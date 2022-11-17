@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="dashboard.component.scss">
+
 <section id="hero">
   <div class="hero-container">
     <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -9,16 +10,16 @@
 
         <!-- Slide 1 -->
         <div class="carousel-item active" style="background: linear-gradient(to bottom,
-                                                  rgba(255, 173, 49, 0.6),
-                                                  rgba(7,109,150, .45),
+                                                  hsla(41, 100%, 49%, 0.37),
+                                                  hsla(206, 95%, 16%, 0.733),
                                                   rgba(7,109,150, .45)
                                                   ), url(../../../assets/media/carrucel/1.jpg);">
           <div class="carousel-container">
             <div class="carousel-content">
               <h2 class="animate__animated animate__fadeInDown"><span></span> Bienvenido</h2>
-              <p class="animate__animated animate__fadeInUp">Bienvenidos a tu tienda virtual.</p>
+              <p class="animate__animated animate__fadeInUp">Escuela profesional de Nutrición Humana.</p>
               <div>
-                <a href="#gallery" class="btn-menu animate__animated animate__fadeInUp scrollto">Comenzar</a>
+                <a href="#gallery" class="btn-menu animate__animated animate__fadeInUp scrollto">Empezamos</a>
               </div>
             </div>
           </div>
@@ -58,15 +59,69 @@
 </section><!-- End Hero -->
 <br><br><br>
 
+<!-- SECCION SLIDER O CARRUCEL  -->
+    <!-- imagen slider start -->
+    <!-- <section id="carrucel">
+      <div class="slider">
+      <div class="slides"> -->
+        <!-- boton de empezar -->
+        <!-- <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3"> -->
+        <!-- boton de finalizar -->
+        <!-- slider imagenes inicio -->
+        <!-- <div class="slide first">
+            <img style="background: linear-gradient(to bottom,
+                                                  rgba(255, 173, 49, 0.6),
+                                                  rgba(7,109,150, .45),
+                                                  rgba(7,109,150, .45)
+            ), url(../../../assets/media/carrucel/1.jpg);">
+        
+        
+        </div>
+        <div class="slide second">
+          <img style="background: linear-gradient(to bottom,
+                                                  rgba(255, 173, 49, 0.6),
+                                                  rgba(7,109,150, .45),
+                                                  rgba(7,109,150, .45)
+            ), url(../../../assets/media/carrucel/2.jpg);">
+         </div> -->
+        <!-- slider imagenes fin -->
+        <!-- Automatico navegacion inicio -->
+          <!-- <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div> -->
+            <!-- <div class="auto-btn3"></div> -->
+          <!-- </div> -->
+        <!-- Automatico navegacion fin -->
+      <!-- </div> -->
+      <!-- navegacion manual inicio -->
+      <!-- <div class="navegacion-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label> -->
+        <!-- <label for="radio3" class="manual-btn"></label> -->
+      <!-- </div> -->
+      <!-- navegacion manual fin -->
+    <!-- </div> -->
+    <!-- <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter>2){
+        counter = 1;
+      }
+    }, 5000)  
+    </script>
+  </section> -->
+    
 
-
-
-
-
+    <!-- <br><br><br><br><br><br><br><br><br> -->
+<!-- FIN DE CARRUCEL --> 
 
 <!--begin::Row-->
-<div class="row g-5 g-xl-10 mb-5 mb-xl-10">
-  <!--begin::Col-->
+<!-- <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+
   <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-3 mb-md-5 mb-xl-10">
     <app-cards-widget20 cssClass="h-md-50 mb-5 mb-xl-10" description="Active Projects" color="#F1416C"
       img="./assets/media/patterns/vector-1.png"></app-cards-widget20>
@@ -74,51 +129,46 @@
     <app-cards-widget7 cssClass="h-md-50 mb-5 mb-xl-10" [icon]="false" [stats]="357" description="Professionals"
       labelColor="dark" textColor="gray-300"></app-cards-widget7>
   </div>
-  <!--end::Col-->
 
-  <!--begin::Col-->
+
   <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-3 mb-md-5 mb-xl-10">
     <app-cards-widget17 cssClass="h-md-50 mb-5 mb-xl-10"></app-cards-widget17>
     <app-lists-widget26 class="h-lg-50"></app-lists-widget26>
   </div>
-  <!--end::Col-->
-
-
-  <!--begin::Col-->
   <app-engage-widget10 class="col-xxl-6" cssClass="h-md-100"></app-engage-widget10>
-  <!--end::Col-->
-</div>
+
+</div> -->
 <!--end::Row-->
 
 <!--begin::Row-->
 <div class="row gx-5 gx-xl-10">
   <!--begin::Col-->
   <div class="col-xxl-6 mb-5 mb-xl-10">
-    <app-new-charts-widget8 cssClass="h-xl-100" chartHeight="275px" [chartHeightNumber]="275"></app-new-charts-widget8>
+    <img src="../../../assets/media/carrucel/mision.jpg" style="border-radius: 25px;" alt="">
   </div>
   <!--end::Col-->
 
   <!--begin::Col-->
   <div class="col-xxl-6 mb-5 mb-xl-10">
-    <app-cards-widget18 cssClass="h-xl-100" image="./assets/media/stock/600x600/img-65.jpg"></app-cards-widget18>
+    <img src="../../../assets/media/carrucel/vision.jpg" style="border-radius: 25px;" alt="">
   </div>
   <!--end::Col-->
 </div>
 <!--end::Row-->
 
 <!-- begin::Row -->
-<div class="row gy-5 gx-xl-8">
+<!-- <div class="row gy-5 gx-xl-8">
   <div class="col-xxl-4">
     <app-lists-widget3 class="card card-xxl-stretch mb-xl-3"></app-lists-widget3>
   </div>
   <div class="col-xl-8">
     <app-tables-widget10 class="card card-xxl-stretch mb-5 mb-xl-8"></app-tables-widget10>
   </div>
-</div>
+</div> -->
 <!-- end::Row -->
 
 <!-- begin::Row -->
-<div class="row gy-5 g-xl-8">
+<!-- <div class="row gy-5 g-xl-8">
   <div class="col-xl-4">
     <app-lists-widget2 class="card card-xl-stretch mb-xl-8"></app-lists-widget2>
   </div>
@@ -128,10 +178,10 @@
   <div class="col-xl-4">
     <app-lists-widget4 class="card card-xl-stretch mb-5 mb-xl-8"></app-lists-widget4>
   </div>
-</div>
+</div> -->
 <!-- end::Row -->
 
-<div class="row g-5 gx-xxl-8">
+<!-- <div class="row g-5 gx-xxl-8">
   <div class="col-xxl-4">
     <app-mixed-widget8 class="card card-xxl-stretch mb-xl-3" chartColor="success" chartHeight="150px">
     </app-mixed-widget8>
@@ -139,8 +189,7 @@
   <div class="col-xxl-8">
     <app-tables-widget5 class="card card-xxl-stretch mb-5 mb-xxl-8"></app-tables-widget5>
   </div>
-</div>
-
+</div> -->
 <!-- begin:: Modal example -->
 <!-- <app-modal #modal [modalConfig]="modalConfig">
   Modal body html
